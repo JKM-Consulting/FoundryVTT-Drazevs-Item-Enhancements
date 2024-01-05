@@ -1,0 +1,31 @@
+{
+    "id": "drazevs-item-enhancements",
+    "title": "Drazev's Item Enhancements",
+    "description": "This is a collection of upgrades to item behaviors for the DND 5e System. It does things like fixing how items with charges are consumed so that they don't stop you from using an item with zero charges but a stack of 9. This mod will instead let you use that item and move the empty item into it's own stack. This is useful for items that could be refilled and recharged.",
+    "authors": [
+      {
+        "name": "Drazev",
+        "discord" : "",
+        "url" : ""
+      }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+      "minimum": "10",
+      "verified": "11"
+    },
+    "esmodules" : [
+
+    ],
+    "relationships" : [
+        {
+            "id" : "",
+            "type" : "",
+            "compatibility" : {
+                "minimum" : 0,
+                "verified" : "1"
+            }
+        }
+    ],
+    "system" : ["dnd5e"]
+  }
