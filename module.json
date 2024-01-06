@@ -14,18 +14,21 @@
       "minimum": "10",
       "verified": "11"
     },
-    "esmodules" : [
-
+    "esmodules": [
+      "./scripts/main.mjs"
     ],
-    "relationships" : [
-        {
-            "id" : "",
-            "type" : "",
-            "compatibility" : {
-                "minimum" : 0,
-                "verified" : "1"
-            }
+    "relationships": {
+      "systems": [{
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/latest/system.json",
+        "compatibility": {
+          "verified": "2.4.1",
+          "minimum": "2.4.1"
         }
-    ],
-    "system" : ["dnd5e"]
+      }]
+    },
+    "url": "https://github.com/JaysonMendoza/FoundryVTT-Drazevs-Item-Enhancements",
+    "manifest": "https://github.com/JaysonMendoza/FoundryVTT-Drazevs-Item-Enhancements/releases/latest/download/module.json",
+    "download": "https://github.com/JaysonMendoza/FoundryVTT-Drazevs-Item-Enhancements/releases/latest/download/module.zip"
   }
